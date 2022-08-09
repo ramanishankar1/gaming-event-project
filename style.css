@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.box{
+    width: 200px;
+    border-radius: 15px;
+    background-color:pink ;
+
+}
+.Timer-Wrapper{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+.swapArea{
+    text-align: center;
+}
+#swap{
+    border-radius: solid 50px;
+}
+#start{
+    
+    border-radius: solid 50px;
+}
+#selector{
+    border-radius: solid 50px;
+}
+
